@@ -1,0 +1,114 @@
+ 
+    body{
+        background-color: #D5D5D5;
+        font-family: system-ui;
+    }
+    .container{
+        background-color:rgb(244, 254, 255);
+        width:1000px;
+        max-width: 100%;
+        margin:auto;
+        padding:50px;
+        box-shadow: 0 10px 50px #858585;
+        display: grid;
+        grid-template-columns: 80% 18%;
+        column-gap: 2%; 
+        row-gap: 20px;
+    }
+    
+    .avatar img{
+        width:200px;
+        height:200px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .avatar{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    .name h1{
+        font-weight: 250;
+        font-size: xxx-large;
+        margin:10px 5px 0 ;
+        
+    }
+    .name .contact{
+        padding:10px 0 10px;
+        list-style: none;
+    }
+    .name .contact td{
+        padding:10px 10px 0;
+    }
+    .target ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: right;
+        line-height: 30px;
+    } 
+    
+    h2{
+        padding:0;
+        margin: 20px 0 20px;
+    }
+    .edu tr{
+        padding: 10px;
+        text-align: justify;
+        margin: 20px 10px 10px;
+    }
+    .experience h4{
+        margin:20px 0 10px;
+    }
+    
+    .skills{
+        margin-top:  50px;
+    }
+    .experience ul{
+        padding:0;
+        margin: 0;
+    list-style: none;
+    }
+    .experience li{
+        padding:10px 0;
+    }
+    .act h2{
+        padding: 0;
+        margin: 30px 0 20px;
+    }
+    .act h4{
+        margin:10px 0 10px;
+    }
+    .act ul{
+        padding:0;
+        margin: 0;
+    list-style: none;
+    }
+    .act li{
+        padding:10px 0 10px;
+    }
+    .act ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: right;
+        line-height: 30px;
+    } 
+    .achi h4{
+        padding: 0;
+        margin: 20px 0 10px;
+        list-style: none;
+
+    }
+    .hobby h2{
+        padding: 0;
+        margin: 30px 0 20px;
+    }
+    .hobby li{
+        margin: 0;
+        list-style: none;
+    }
+    .contact{
+        margin: 0;
+        line-height: 30px;
+    }
